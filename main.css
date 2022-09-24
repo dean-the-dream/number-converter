@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;1,300&family=Source+Sans+Pro&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: url("./img/neighborhood.png");
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navigation-bar{
+    display: flex;
+    background-color: #4E148C ;
+    height: 80px;
+    color: white;
+    gap: 50px;
+}
+.logo img{
+    width: 80px
+}
+
+.navigation-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+.title-text{
+    font-size: 64px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: white
+}
+
+.mode-switch-container{
+    display: flex;
+}
+
+.mode-switch{
+    display: flex;
+    flex-direction: column;
+    background-color: #BBBBBB;
+    height:100px;
+    width: 125px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    border: .5px solid rgb(128, 128, 128,.2);
+    
+
+}
+.mode-switch p{
+    text-transform: uppercase;
+}
+
+.number-submit-form{
+    margin-top: 50px
+}
+
+.number-submit-form input, .number-submit-form button{
+    height: 50px;
+}
+
+.number-submit-form input{
+    width: 400px;
 }
