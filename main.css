@@ -92,15 +92,9 @@ body{
 }
 
 .mode-switch:hover{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #4E148C;
     height:175px;
-    width: 175px;
     color: white;
-    border: .5px solid rgb(128, 128, 128,.2); 
 }
 
 .number-submit-form label{
